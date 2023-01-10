@@ -1,0 +1,16 @@
+#conversation {
+	height: 15em;
+	overflow: scroll;
+}
+
+#logout_area {
+  float: left;
+}
+
+#doPost_button_area {
+  float: right;
+}
+
+#statement_list td {
+  border: 1px solid black;
+}

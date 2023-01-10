@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>KSM</title>
+	<link rel="stylesheet" type="text/css" href="post.css"/>
+	<script type="text/javascript" src="post.js"></script>
+</head>
+<body>
+	<h1>KSM</h1>
+  <h2>投稿</h2>
+	<hr/>
+  <div id="post_erea">
+    <form method="post" action="upload">
+      作品名:<input id="workName" type="text" name="workName"/><br>
+      <div id="text_area">
+        <textarea id="text" name="text" rows="10" cols="100"></textarea>
+      </div>
+        <input name="file" type="file" accept="application/pdf"><br>
+        <button id="post_button" type="submit">投稿</button><br>
+      </form>
+    </div>
+	<hr/>
+	<div id="menu_bar">
+		<div id="back_area">
+      <form method="post" action="back">
+				<input id="back_button" type="submit" value="戻る"/>
+		</div>
+	</div>
+</body>
+</html>

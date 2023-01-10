@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>KSM</title>
+	<link rel="stylesheet" type="text/css" href="home.css"/>
+	<script type="text/javascript" src="home.js"></script>
+</head>
+<body>
+	<h1>KSM</h1>
+	<div id="name_area">
+	学籍番号: <span id="studentId"></span>
+	</div>
+	<hr/>
+	<div id="doPost_button_area">
+		<form method="post" action="Dopost">
+			<input id="doPost_button" type="submit" value="投稿する"/>
+		</form>
+	</div>
+	<div id="conversation">
+		<table id="statement_list">
+			<tr><td><a href="http://localhost:8080/isp2/work.html">workName</a></td></tr>
+		</table>
+	</div>
+	<hr/>
+	<div id="menu_bar">
+		<div id="logout_area">
+      <form method="post" action="logout">
+				<input id="logout_button" type="submit" value="ログアウト"/>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
